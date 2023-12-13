@@ -1,8 +1,10 @@
- library(ggplot2)
- 
-# Install and load the necessary packages
-install.packages("ggplot2")
-library(ggplot2)
+# Libraries required
+if (!requireNamespace("ggplot2", quietly = TRUE)) {
+  install.packages("ggplot2")
+  library(ggplot2)
+} else {
+  library(ggplot2)
+}
 
 # Sample data: replace this with your actual sleep and wake-up times
 sleep_data <- data.frame(
