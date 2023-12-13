@@ -4,7 +4,7 @@
 install.packages("ggplot2")
 library(ggplot2)
 
-# Sample data: replace this with your actual sleep and wake-up times
+
 sleep_data <- data.frame(
   day = c(1, 2, 3, 4, 5),  # Days
   sleep_time = c("22:00", "23:30", "23:15", "22:45", "23:00"),  # Sleep times
